@@ -4,7 +4,8 @@ module dcs_row(row=3, column=0) {
   $width_difference = 6;
   $height_difference = 4;
   $dish_type = "cylindrical";
-  $dish_depth = 0.5;
+  //$dish_depth = 0.5;
+   $dish_depth = 1;
   $dish_skew_x = 0;
   $dish_skew_y = 0;
   $top_skew = 1.75;
