@@ -113,4 +113,4 @@ module preview() {
     dcs_row3_quotes();
 }
 
-//preview();
+preview();
