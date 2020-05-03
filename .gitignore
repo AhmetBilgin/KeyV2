@@ -1,5 +1,3 @@
 node_modules/
 *.scad.stl
 models/*
-ergodox_keycaps/*/build/*
-ergodox_keycaps/*/Makefile
