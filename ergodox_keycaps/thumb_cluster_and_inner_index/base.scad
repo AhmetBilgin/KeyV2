@@ -44,6 +44,12 @@ module e2_r_sr(){ // make me
     );
 }
 
+module dsa_1i(){ // make me
+    dsa_row(3)
+        inverted()
+	key();
+}
+
 module dsa_el2i(){ // make me
     dsa_row(3)    
         inverted()
@@ -87,10 +93,13 @@ module preview() {
     translate_u(3,0) 
     e2_r_sr();
     
-    translate_u(4,0)
+	translate_u(4,0)
+	dsa_1i();
+	
+    translate_u(5,0)
     dsa_el2i();
         
-    translate_u(5,0)
+    translate_u(6,0)
     dcs_el2i();
 }
 
